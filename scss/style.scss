@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -14,6 +15,7 @@ header {
     align-items: center;
     flex-direction: column;
     height: 450px;
+    text-align: center;
     img {
         width: 110px;
         border-radius: 100px;
@@ -24,5 +26,36 @@ header {
         font-family: 'Alice', Georgia, serif;
         font-weight: 50;
         opacity: 0.75;
+    }
+    .header-info {
+        margin-top: 10px;
+        h6 {
+            font-family: "Open sans", Helvetica, Arial, sans-serif;
+            font-weight: 400;
+            font-size: 1rem;
+            opacity: 0.75;
+        }
+    }
+}
+
+nav {
+    margin: 0 10px;
+    height: 60px;
+    div {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        ul {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            list-style: none;
+            li {
+                margin: 0 30px;
+                font-family: "Open sans", Helvetica, Arial, sans-serif;
+            }
+        }
     }
 }
