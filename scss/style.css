@@ -44,19 +44,30 @@ header .header-info {
   margin-top: 10px;
 }
 
-header .header-info h6 {
+header .header-info h6,
+header .header-info a {
+  color: #2e2e2e;
+  text-decoration: none;
   font-family: "Open sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 1rem;
   opacity: 0.75;
 }
 
-nav {
+header .header-info a:hover {
+  text-decoration: underline;
+}
+
+.nav {
+  border: 1px solid #cccccc;
+}
+
+.nav nav {
   margin: 0 10px;
   height: 60px;
 }
 
-nav div {
+.nav nav div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -64,7 +75,7 @@ nav div {
   width: 100%;
 }
 
-nav div ul {
+.nav nav div ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -79,12 +90,13 @@ nav div ul {
   list-style: none;
 }
 
-nav div ul li {
+.nav nav div ul li {
   margin: 0 30px;
   font-family: "Open sans", Helvetica, Arial, sans-serif;
+  opacity: 0.6;
 }
 
-nav div ul .home {
-  font-weight: 500;
+.nav nav div ul .home {
+  opacity: 1;
 }
 /*# sourceMappingURL=style.css.map */
