@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -7,5 +8,21 @@ header {
     background-image: url('../images/bg_head.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 450px;
+    img {
+        width: 110px;
+        border-radius: 100px;
+        border: 10px solid lightgray;
+    }
+    p {
+        font-size: 50px;
+        font-family: 'Alice', Georgia, serif;
+        font-weight: 50;
+        opacity: 0.75;
+    }
 }

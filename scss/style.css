@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Alice&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -7,6 +8,33 @@ header {
   background-image: url("../images/bg_head.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center -50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 450px;
+}
+
+header img {
+  width: 110px;
+  border-radius: 100px;
+  border: 10px solid lightgray;
+}
+
+header p {
+  font-size: 50px;
+  font-family: 'Alice', Georgia, serif;
+  font-weight: 50;
+  opacity: 0.75;
 }
 /*# sourceMappingURL=style.css.map */
