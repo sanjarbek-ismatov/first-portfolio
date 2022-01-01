@@ -83,4 +83,8 @@ nav div ul li {
   margin: 0 30px;
   font-family: "Open sans", Helvetica, Arial, sans-serif;
 }
+
+nav div ul .home {
+  font-weight: 500;
+}
 /*# sourceMappingURL=style.css.map */
