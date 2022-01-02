@@ -84,3 +84,27 @@ header {
         }
     }
 }
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.theme-center {
+    display: flex;
+    max-width: 1050px;
+    margin: 50px auto;
+    text-align: center;
+    font-family: "Open sans", Helvetica, Arial, sans-serif;
+    color: #929292;
+    p {
+        font-size: 21px;
+    }
+    .red {
+        text-decoration: none;
+        color: #D73467;
+    }
+    .red:hover {
+        text-decoration: underline;
+    }
+}

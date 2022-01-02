@@ -112,4 +112,37 @@ header .header-info a:hover {
   left: 50%;
   right: 40%;
 }
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.theme-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1050px;
+  margin: 50px auto;
+  text-align: center;
+  font-family: "Open sans", Helvetica, Arial, sans-serif;
+  color: #929292;
+}
+
+.theme-center p {
+  font-size: 21px;
+}
+
+.theme-center .red {
+  text-decoration: none;
+  color: #D73467;
+}
+
+.theme-center .red:hover {
+  text-decoration: underline;
+}
 /*# sourceMappingURL=style.css.map */
