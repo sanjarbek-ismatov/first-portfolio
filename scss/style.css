@@ -99,4 +99,17 @@ header .header-info a:hover {
 .nav nav div ul .home {
   opacity: 1;
 }
+
+.nav nav .menu-hidden {
+  background-color: #fff;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  position: absolute;
+  display: none;
+  list-style: none;
+  font-family: "Open sans", Helvetica, Arial, sans-serif;
+  width: 130px;
+  left: 50%;
+  right: 40%;
+}
 /*# sourceMappingURL=style.css.map */

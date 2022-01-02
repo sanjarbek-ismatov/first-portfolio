@@ -70,5 +70,17 @@ header {
                 }
             }
         }
+        .menu-hidden {
+            background-color: #fff;
+            border: 1px solid #cccccc;
+            border-radius: 10px;
+            position: absolute;
+            display: none;
+            list-style: none;
+            font-family: "Open sans", Helvetica, Arial, sans-serif;
+            width: 130px;
+            left: 50%;
+            right: 40%;
+        }
     }
 }
