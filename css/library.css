@@ -1,0 +1,11 @@
+.link {
+    text-decoration: none;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.button {
+    border: 1px solid #000000;
+}
