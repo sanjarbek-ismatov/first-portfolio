@@ -186,10 +186,22 @@ main {
   font-size: 13px;
   font-family: "Open sans";
   color: #666666;
-  margin: 0 15px;
+  margin: 0 19px 40px;
 }
 
 .grid-readmore div a {
-  padding: 10px 25px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #2e2e2e;
+  font-size: 0.75rem;
+  padding: 12px 35px;
+  font-weight: bold;
+  text-shadow: none;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+}
+
+.grid-readmore div a:hover {
+  border-color: #aa0b3d;
+  color: #aa0b3d;
 }
 /*# sourceMappingURL=style.css.map */
