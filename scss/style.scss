@@ -172,13 +172,27 @@
             font-family: "Open sans", Helvetica, Arial, sans-serif;
         }
         .grid-img {
+            font-family: "Open sans", Helvetica, Arial, sans-serif;
+            margin-top: 20px;
             display: grid;
             grid-gap: 10px 30px;
             grid-template: repeat(2, 1fr) / repeat(3, 1fr);
             div {
+                text-align: center;
                 img {
                     width: 100%;
-                    height: auto;
+                    height: 180px;
+                    margin-bottom: 12px;
+                }
+                .description-image {
+                    font-size: 15px;
+                    display: block;
+                    margin: 0 25px;
+                    font-weight: 550;
+                }
+                div {
+                    font-size: 12px;
+                    padding: 10px 0;
                 }
             }
         }
