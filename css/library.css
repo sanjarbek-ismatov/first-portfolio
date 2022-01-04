@@ -1,5 +1,7 @@
-.link {
+.link,
+.red {
     text-decoration: none;
+    color: #aa0b3d;
 }
 
 .uppercase {
