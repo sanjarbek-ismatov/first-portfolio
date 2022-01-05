@@ -252,7 +252,7 @@ main {
 
 .download-template {
     margin-top: 70px;
-    border: 3px double #bebebe;
+    border: 3px double #cfcfcf;
     display: flex;
     align-content: center;
     padding: 36px 0;
@@ -276,6 +276,30 @@ main {
                 width: 100%;
                 color: #fff;
             }
+        }
+    }
+}
+
+.client {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    h1 {
+        margin: 20px auto;
+        font-weight: 300;
+        color: #3a3a3a;
+    }
+}
+
+footer {
+    width: 100%;
+    .footer {
+        margin: auto;
+        max-width: 1100px;
+        .grid-footer {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
         }
     }
 }

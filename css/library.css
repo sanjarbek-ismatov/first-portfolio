@@ -11,3 +11,7 @@
 .button {
     border: 1px solid #000000;
 }
+
+.sans {
+    font-family: "Open sans";
+}

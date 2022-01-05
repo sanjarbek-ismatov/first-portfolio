@@ -302,7 +302,7 @@ main {
 }*/
 .download-template {
   margin-top: 70px;
-  border: 3px double #bebebe;
+  border: 3px double #cfcfcf;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -337,5 +337,34 @@ main {
 .download-template .container .download-btn a {
   width: 100%;
   color: #fff;
+}
+
+.client {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.client h1 {
+  margin: 20px auto;
+  font-weight: 300;
+  color: #3a3a3a;
+}
+
+footer {
+  width: 100%;
+}
+
+footer .footer {
+  margin: auto;
+  max-width: 1100px;
+}
+
+footer .footer .grid-footer {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
 }
 /*# sourceMappingURL=style.css.map */
