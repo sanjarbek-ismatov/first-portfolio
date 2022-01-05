@@ -262,14 +262,43 @@ main {
 }
 
 footer {
+    margin-top: 30px;
     width: 100%;
     .footer {
-        margin: auto;
-        max-width: 1100px;
+        background-color: #232323;
         .grid-footer {
+            column-gap: 30px;
+            padding: 30px 0;
+            line-height: 20px;
+            margin: auto;
+            max-width: 1100px;
             width: 100%;
             display: grid;
             grid-template-columns: repeat(4, 1fr);
+            color: #c4c4c4a9;
+            font-size: 12px;
+            h2 {
+                color: #fff;
+                font-size: 17px;
+                font-weight: 300;
+                margin-bottom: 25px;
+            }
+            .link-mail {
+                text-decoration: none;
+                color: #d3d3d3;
+            }
+        }
+    }
+    .copyright {
+        font-family: "Open sans";
+        color: #ffffff91;
+        background-color: #1a1a1a;
+        padding: 10px 0;
+        text-align: center;
+        font-size: 10px;
+        span {
+            color: #fff;
+            font-size: 12px;
         }
     }
 }
