@@ -89,6 +89,8 @@ header {
 main {
     display: block;
     justify-content: center;
+    width: 1100px;
+    margin: auto;
 }
 
 .theme-center {
@@ -181,7 +183,7 @@ main {
         div {
             .absolute {
                 transition-duration: 0.5s;
-                visibility: hidden;
+                opacity: 0;
                 position: relative;
                 top: -60px;
                 left: 110px;
@@ -192,11 +194,10 @@ main {
         }
         div:hover {
             .absolute {
-                visibility: visible;
+                opacity: 1;
             }
             img {
                 opacity: 0.25;
-                transition-duration: 0.5s;
             }
         }
         text-align: center;
@@ -204,6 +205,7 @@ main {
             width: 100%;
             height: 180px;
             margin-bottom: 12px;
+            transition-duration: 0.5s;
         }
         .description-image {
             font-size: 15px;
@@ -214,6 +216,35 @@ main {
         div {
             font-size: 12px;
             padding: 10px 0;
+        }
+    }
+}
+
+.download-template {
+    width: 100%;
+    display: flex;
+    padding: 58px 0px;
+    .lorem {
+        margin: 0 70px;
+        p {
+            font-family: "Open sans", Helvetica, Arial, sans-serif;
+            font-size: 0.9375rem;
+            color: #666666;
+        }
+    }
+    .download-btn {
+        display: flex;
+        background-color: $redColor;
+        text-align: center;
+        width: 400px;
+        align-items: center;
+        margin: 0 50px;
+        a {
+            font-family: "Open sans", Helvetica, Arial, sans-serif;
+            color: #fff;
+            width: 100%;
+            font-size: 12px;
+            font-weight: bold;
         }
     }
 }
