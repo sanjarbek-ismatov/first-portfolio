@@ -272,42 +272,70 @@ main {
   padding: 10px 0;
 }
 
+/*.download-template {
+    width: 100%;
+    display: flex;
+    padding: 58px 0px;
+    .lorem {
+        margin: 0 70px;
+        p {
+            font-family: "Open sans", Helvetica, Arial, sans-serif;
+            font-size: 0.9375rem;
+            color: #666666;
+        }
+    }
+    .download-btn {
+        display: flex;
+        background-color: $redColor;
+        text-align: center;
+        width: 400px;
+        align-items: center;
+        margin: 0 50px;
+        a {
+            font-family: "Open sans", Helvetica, Arial, sans-serif;
+            color: #fff;
+            width: 100%;
+            font-size: 12px;
+            font-weight: bold;
+        }
+    }
+}*/
 .download-template {
+  margin-top: 70px;
+  border: 3px double #bebebe;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 36px 0;
+}
+
+.download-template .container {
+  padding: 0 50px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 58px 0px;
+  font-family: "Open sans";
 }
 
-.download-template .lorem {
-  margin: 0 70px;
+.download-template .container .lorem {
+  font-size: 15px;
+  margin-right: 70px;
 }
 
-.download-template .lorem p {
-  font-family: "Open sans", Helvetica, Arial, sans-serif;
-  font-size: 0.9375rem;
-  color: #666666;
-}
-
-.download-template .download-btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.download-template .container .download-btn {
+  width: 200px;
+  padding: 15px 35px;
   background-color: #aa0b3d;
   text-align: center;
-  width: 400px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0 50px;
+  font-size: 12px;
+  font-family: "Open sans";
 }
 
-.download-template .download-btn a {
-  font-family: "Open sans", Helvetica, Arial, sans-serif;
-  color: #fff;
+.download-template .container .download-btn a {
   width: 100%;
-  font-size: 12px;
-  font-weight: bold;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */

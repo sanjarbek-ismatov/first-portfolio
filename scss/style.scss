@@ -220,7 +220,8 @@ main {
     }
 }
 
-.download-template {
+
+/*.download-template {
     width: 100%;
     display: flex;
     padding: 58px 0px;
@@ -245,6 +246,36 @@ main {
             width: 100%;
             font-size: 12px;
             font-weight: bold;
+        }
+    }
+}*/
+
+.download-template {
+    margin-top: 70px;
+    border: 3px double #bebebe;
+    display: flex;
+    align-content: center;
+    padding: 36px 0;
+    .container {
+        padding: 0 50px;
+        width: 100%;
+        display: flex;
+        font-family: "Open sans";
+        .lorem {
+            font-size: 15px;
+            margin-right: 70px;
+        }
+        .download-btn {
+            width: 200px;
+            padding: 15px 35px;
+            background-color: $redColor;
+            text-align: center;
+            font-size: 12px;
+            font-family: "Open sans";
+            a {
+                width: 100%;
+                color: #fff;
+            }
         }
     }
 }
