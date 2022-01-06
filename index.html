@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="./scss/style.css">
     <title>Initio - Free, multipurpose html5 template by GetTemplate</title>
     <link rel="shortcut icon" href="./images/favicon.png">
-    <link rel="stylesheet" href="./css/library.css">
 </head>
 
 <body>
@@ -27,29 +26,30 @@
     <div class="nav">
         <nav>
             <div>
-                <ul>
-                    <li class="home">HOME</li>
-                    <li>ABOUT</li>
-                    <li class="menu">
-                        <a>MORE PAGES</a>
+                <ul class="uppercase">
+                    <li class="home">
+                        <a class="link" href="#home">home</a>
                     </li>
-                    <li>BLOG</li>
+                    <li>
+                        <a href="#services" class="link">sevices</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#recent-works">recent works</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#clients">clients</a>
+                    </li>
+                </ul>
             </div>
-            <ul class="menu-hidden">
-                <li>LEFT SIDEBAR</li>
-                <li>RIGHT SIDEBAR</li>
-                <li>BLOG</li>
-            </ul>
 
-            </ul>
     </div>
     </nav>
     </div>
     <main>
-        <div class="theme-center">
+        <div class="main">
             <p>Let me tell you something my friend. hope is a dangerous thing. hope can drive a man insane. you <a class="red link" href="#">measure</a> yourself by the people who measure themselves by you. it only took me <a class="red link" href="#">six days</a>.</p>
         </div>
-        <div class="theme-lower">
+        <div id="services">
             <p>services</p>
         </div>
         <div class="grid-readmore">
@@ -74,7 +74,7 @@
                 <a href="#" class="button link uppercase">Read more</a>
             </div>
         </div>
-        <div class="grid-image">
+        <div id="recent-works">
             <div class="heading">
                 <p class="uppercase">recent works</p>
             </div>
@@ -84,47 +84,47 @@
                     <a href="#" class="absolute link uppercase">See details →</a>
                     <span class="description-image uppercase">sample title - big data solutions</span>
                     <div>
-                        <a class="red link" href="#">Web design</a> | <a class="red link" href="#">Wordpress</a> | <a class="red link" href="#">Logotype</a>
+                        <a class="red-link" href="#">Web design</a> | <a class="red-link" href="#">Wordpress</a> | <a class="red-link" href="#">Logotype</a>
                     </div>
                 </div>
                 <div>
                     <img src="./images/s1.jpg">
                     <a href="#" class="absolute link uppercase">See details →</a>
                     <span class="description-image uppercase">Pure ipsum - development services for people</span>
-                    <div class="red link">
-                        <a class="red link" href="#">Web design</a> | <a class="red link" href="#">Wordpress</a>
+                    <div>
+                        <a class="red-link" href="#">Web design</a> | <a class="red-link" href="#">Wordpress</a>
                     </div>
                 </div>
                 <div>
                     <img src="./images/s1.jpg">
                     <a href="#" class="absolute link uppercase">See details →</a>
                     <span class="description-image uppercase">Lorem studios - interior and patio design</span>
-                    <div class="red link">
-                        <a class="red link" href="#">Web design</a> | <a class="red link" href="#">Logotype</a>
+                    <div>
+                        <a class="red-link" href="#">Web design</a> | <a class="red-link" href="#">Logotype</a>
                     </div>
                 </div>
                 <div>
                     <img src="./images/s1.jpg">
                     <a href="#" class="absolute link uppercase">See details →</a>
                     <span class="description-image uppercase">Pure ipsum - development services for people</span>
-                    <div class="red link">
-                        <a class="red link" href="#">Web design</a> | <a class="red link" href="#">Wordpress</a>
+                    <div>
+                        <a class="red-link" href="#">Web design</a> | <a class="red-link" href="#">Wordpress</a>
                     </div>
                 </div>
                 <div>
                     <img src="./images/s1.jpg">
                     <a href="#" class="absolute link uppercase">See details →</a>
                     <span class="description-image uppercase">Lorem studios - interior and patio design</span>
-                    <div class="red link">
-                        <a class="red link" href="#">Web design</a> | <a class="red link" href="#">Logotype</a>
+                    <div>
+                        <a class="red-link" href="#">Web design</a> | <a class="red-link" href="#">Logotype</a>
                     </div>
                 </div>
                 <div>
                     <img src="./images/s1.jpg">
                     <a href="#" class="absolute link uppercase">See details →</a>
                     <span class="description-image uppercase">Lorem studios - interior and patio design</span>
-                    <div class="red link">
-                        <a class="red link" href="#">Web design</a> | <a class="red link" href="#">Logotype</a>
+                    <div>
+                        <a class="red-link" href="#">Web design</a> | <a class="red-link" href="#">Logotype</a>
                     </div>
                 </div>
             </div>
@@ -140,7 +140,7 @@
             </div>
         </div>
         <div class="client">
-            <h1 class="uppercase sans">clients</h1>
+            <h1 class="uppercase sans" id="clients">clients</h1>
             <img src="./images/sample_clients.png" alt="clients">
         </div>
     </main>

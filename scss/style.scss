@@ -1,9 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 $redColor: #aa0b3d;
+$aliceFont: 'Alice',
+Georgia,
+serif;
+$sansFont: "Open sans",
+Helvetica,
+Arial,
+sans-serif;
+$helveticaFont: "Helvetica Neue",
+Helvetica,
+Arial,
+sans-serif;
 * {
     padding: 0;
     margin: 0;
+}
+
+.red-link {
+    text-decoration: none;
+    color: #aa0b3d;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.button {
+    border: 1px solid #000000;
+}
+
+.sans {
+    font-family: "Open sans";
+}
+
+.link {
+    text-decoration: none;
 }
 
 header {
@@ -19,12 +51,17 @@ header {
     text-align: center;
     img {
         width: 110px;
+        height: auto;
         border-radius: 100px;
         border: 10px solid lightgray;
+        transition-duration: 0.25s;
+    }
+    img:hover {
+        border-color: gray;
     }
     p {
         font-size: 50px;
-        font-family: 'Alice', Georgia, serif;
+        font-family: $aliceFont;
         font-weight: 50;
         opacity: 0.75;
     }
@@ -34,7 +71,7 @@ header {
         a {
             color: rgb(46, 46, 46);
             text-decoration: none;
-            font-family: "Open sans", Helvetica, Arial, sans-serif;
+            font-family: $sansFont;
             font-weight: 400;
             font-size: 1rem;
             opacity: 0.75;
@@ -63,8 +100,14 @@ header {
                 list-style: none;
                 li {
                     margin: 0 30px;
-                    font-family: "Open sans", Helvetica, Arial, sans-serif;
+                    font-family: $sansFont;
                     opacity: 0.6;
+                    a {
+                        color: #2e2e2e;
+                    }
+                    a:hover {
+                        text-decoration: underline;
+                    }
                 }
                 .home {
                     opacity: 1;
@@ -78,7 +121,7 @@ header {
             position: absolute;
             display: none;
             list-style: none;
-            font-family: "Open sans", Helvetica, Arial, sans-serif;
+            font-family: $sansFont;
             width: 130px;
             left: 50%;
             right: 40%;
@@ -93,7 +136,7 @@ main {
     margin: auto;
 }
 
-.theme-center {
+.main {
     display: flex;
     max-width: 1050px;
     margin: 50px auto;
@@ -112,14 +155,14 @@ main {
     }
 }
 
-.theme-lower {
+#services {
     width: 100%;
     padding: 20px 0;
     text-align: center;
     p {
         text-transform: uppercase;
         font-size: 37px;
-        font-family: "Open sans", Helvetica, Arial, sans-serif;
+        font-family: $sansFont;
         color: #161616;
     }
 }
@@ -132,11 +175,11 @@ main {
     div {
         text-align: center;
         margin: 6px 0 0 0;
-        font-family: "Open sans";
+        font-family: $sansFont;
         h3 {
             color: #292929;
             margin: 0 10px 40px;
-            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-family: $helveticaFont;
             text-align: center;
             font-size: 1.5rem;
             font-weight: bold;
@@ -144,12 +187,12 @@ main {
         p {
             text-align: left;
             font-size: 13px;
-            font-family: "Open sans";
+            font-family: $sansFont;
             color: #555555;
             margin: 0 19px 40px;
         }
         a {
-            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-family: $helveticaFont;
             color: rgb(46, 46, 46);
             font-size: 0.75rem;
             padding: 12px 35px;
@@ -164,7 +207,7 @@ main {
     }
 }
 
-.grid-image {
+#recent-works {
     margin: auto;
     margin-top: 50px;
     max-width: 1100px;
@@ -172,10 +215,10 @@ main {
         text-align: center;
         font-size: 37px;
         color: #161616;
-        font-family: "Open sans", Helvetica, Arial, sans-serif;
+        font-family: $sansFont;
     }
     .grid-img {
-        font-family: "Open sans", Helvetica, Arial, sans-serif;
+        font-family: $sansFont;
         margin-top: 20px;
         display: grid;
         grid-gap: 10px 30px;
@@ -230,7 +273,7 @@ main {
         padding: 0 50px;
         width: 100%;
         display: flex;
-        font-family: "Open sans";
+        font-family: $sansFont;
         .lorem {
             font-size: 15px;
             margin-right: 70px;
@@ -241,11 +284,14 @@ main {
             background-color: $redColor;
             text-align: center;
             font-size: 12px;
-            font-family: "Open sans";
+            font-family: $sansFont;
             a {
                 width: 100%;
                 color: #fff;
             }
+        }
+        .download-btn:hover {
+            background-color: #be0c45;
         }
     }
 }
