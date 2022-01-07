@@ -420,10 +420,19 @@
             margin: 0 auto;
             width: 90%;
         }
+        footer .footer .grid-footer {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        footer .footer .grid-footer div {
+            padding-top: 20px;
+        }
     }
     
     @media (max-width: 744px) {
         .grid-readmore {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        footer .footer .grid-footer {
             grid-template-columns: repeat(1, 1fr);
         }
     }
