@@ -318,6 +318,10 @@
         font-family: "Open sans", Helvetica, Arial, sans-serif;
     }
     
+    #client-image {
+        width: 100%;
+    }
+    
     .download-template .container .download-btn a {
         width: 100%;
         color: #fff;
@@ -411,6 +415,10 @@
             column-gap: 30px;
             margin: auto;
             max-width: 730px;
+        }
+        #client-image {
+            margin: 0 auto;
+            width: 90%;
         }
     }
     
