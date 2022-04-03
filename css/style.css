@@ -372,7 +372,7 @@
         column-gap: 30px;
         padding: 30px 0;
         line-height: 20px;
-        margin: 0px 15px;
+   
         max-width: 1100px;
         width: 100%;
         display: -ms-grid;
@@ -380,6 +380,9 @@
         grid-template-columns: repeat(4, 1fr);
         color: #c4c4c4a9;
         font-size: 12px;
+    }
+    footer .footer .grid-footer div{
+         margin: 0px 0px 0px 15px;
     }
     .menus{
         left: -10px!important;
