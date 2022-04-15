@@ -259,19 +259,25 @@ main {
   transition-duration: 0.5s;
   opacity: 0;
   position: relative;
-  top: -60px;
-  left: 110px;
-  padding: 8px 23px;
-  background-color: #aa0b3d;
+  top: -112px;
+  left: 2px;
+  padding: 8px 43px;
+  /* background-color: #aa0b3d; */
+  background-color: transparent;
   color: #fff;
+  border-radius: 25px;
+  border: 1px solid #fff;
 }
-
+#recent-works .grid-img div .absolute:hover {
+  background-color: #fff;
+  color: #000;
+}
 #recent-works .grid-img div:hover .absolute {
   opacity: 1;
 }
 
 #recent-works .grid-img div:hover img {
-  opacity: 0.25;
+  filter: blur(4px);
 }
 
 #recent-works .grid-img img {
